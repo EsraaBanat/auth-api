@@ -23,7 +23,7 @@ const {
 } = require('./routes-functions');
 
 
-router.post('/', homePage);
+router.get('/', homePage);
 router.post('/signup', handleSignup);
 router.post('/signin', basicAuth, handleSignin);
 router.get('/users', bearerAuth, permissions('delete'), handleGetUsers);
