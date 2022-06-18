@@ -6,8 +6,8 @@
 
 ## Links :
 
-## [Heroku App]()
+## [Heroku App](https://esraa-auth-api.herokuapp.com/)
 
-## [PR Link]()
+## [PR Link](https://github.com/EsraaBanat/auth-api/pull/2)
 
 ## [Github Actions](https://github.com/EsraaBanat/auth-api/actions)
