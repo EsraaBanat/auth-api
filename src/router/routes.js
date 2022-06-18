@@ -8,6 +8,7 @@ const bearerAuth = require('../auth/middlewares/bearer');
 const permissions = require('../auth/middlewares/acl');
 
 const {
+    homePage,
     //API
     handleGetAll,
     handleGetOne,
@@ -22,6 +23,7 @@ const {
 } = require('./routes-functions');
 
 
+router.post('/', homePage);
 router.post('/signup', handleSignup);
 router.post('/signin', basicAuth, handleSignin);
 router.get('/users', bearerAuth, permissions('delete'), handleGetUsers);

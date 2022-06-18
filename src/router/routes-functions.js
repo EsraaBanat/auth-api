@@ -2,6 +2,9 @@
 
 const { users } = require('../models/index');
 
+ function homePage(req, res) {
+  res.status(200).send('Home Page For My Auth-API Mini Project');
+}
 //API 
 async function handleGetAll(req, res) {
   // console.log('req.model',req.model);
@@ -84,6 +87,7 @@ function handleSecret(req, res, next) {
 }
 
 module.exports = {
+    homePage,
     //API
     handleGetAll,
     handleGetOne,
