@@ -10,7 +10,7 @@ const userModel = (sequelize, DataTypes) => {
         username: {
             type: DataTypes.STRING,
             required: true,
-            // unique: true
+            unique: true
         },
         password: {
             type: DataTypes.STRING,
