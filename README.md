@@ -19,7 +19,8 @@
 You can test my app using [Postman](https://www.postman.com/downloads/) or [Httpie](https://httpie.io/)
 
 Please use the table below to find out all Routes:
-note: replace 'model' with 'food' or 'clothes' depends on what table do you want to do CRUD on it also choose any id you want to test.
+
+Note: replace 'model' with 'food' or 'clothes' depends on what table do you want to do CRUD on it also choose any id you want to test.
 
 | Page              | Path             | Method | Response and Usage                            | who is can access this page   |
 |-------------------|------------------|--------|-----------------------------------------------|-------------------------------|
