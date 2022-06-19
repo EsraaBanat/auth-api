@@ -3,8 +3,8 @@
 process.env.SECRET = "TEST_SECRET";
 
 const {db, users} = require('../src/models/index');
-const {handleSignup} = require('../src/router/routes-functions');
-const {handleSignin} = require('../src/router/routes-functions');
+const {handleSignup,handleSignin} = require('../src/router/routes-functions');
+
 
 beforeAll(async () => {
     await db.sync();
